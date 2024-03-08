@@ -17,13 +17,13 @@ body {
   position: fixed;
   width: 100%;
   z-index: 100;
-  background-color: #073149; 
-  color: white; 
+  background-color: #073149;
+  color: white;
   padding: 10px;
   height: 7.5rem;
-  display: flex; 
+  display: flex;
   flex-direction: row;
-  align-items: flex-start; 
+  align-items: flex-start;
   padding-left: 15px;
 }
 .header .header_wrap {
@@ -114,17 +114,18 @@ body {
   min-height: calc(100dvh - 7.5rem);
   overflow-y: scroll;
   background-color: #eee;
-  padding: 1.5rem 2rem;
+  padding: 2rem 4rem;
 }
 .main_title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 #carouselAdminstration {
   border-radius: 10px;
 }
-#carouselAdminstration .carousel-inner{
+#carouselAdminstration .carousel-inner {
   border-radius: 10px;
 }
 #carouselAdminstration .carousel-item {
@@ -137,8 +138,10 @@ body {
 }
 .carousel#carouselAdminstration {
   border-radius: 10px;
-  padding: 30px 50px;
+  padding: 30px 80px;
   box-shadow: 5px 8px 14px rgba(0, 0, 0, 0.173);
+  width: 75%;
+  margin: 0 auto;
 }
 
 #carouselAdminstration .carousel-item img {
@@ -168,13 +171,13 @@ body {
 /* main end */
 
 /* home page start*/
-#carouselHome .carousel-inner{
+#carouselHome .carousel-inner {
   border-radius: 10px;
 }
 #carouselHome .carousel-item {
   border-radius: 10px;
 }
-#carouselHome .carousel-item img{
+#carouselHome .carousel-item img {
   height: 400px;
   border-radius: 10px;
 }
@@ -194,28 +197,28 @@ body {
 #carouselHome .carousel-control-next {
   width: 80px;
 }
-.card_body{
+.card_body {
   margin: 50px;
   color: #333;
 }
-.card_title{
+.card_title {
   font-size: 25px;
   font-weight: 600;
 }
-.card_text{
+.card_text {
   font-size: 18px;
   line-height: 30px;
 }
 /* home page end*/
 
 /* news page start */
-#carouselNews .carousel-inner{
+#carouselNews .carousel-inner {
   border-radius: 10px;
 }
 #carouselNews .carousel-item {
   border-radius: 10px;
 }
-#carouselNews .carousel-item img{
+#carouselNews .carousel-item img {
   height: 450px;
   border-radius: 10px;
 }
@@ -235,18 +238,18 @@ body {
 #carouselNews .carousel-control-next {
   width: 80px;
 }
-#carouselNews .carousel-caption{
+#carouselNews .carousel-caption {
   background-color: #00000056;
   border-radius: 15px;
 }
 /* news page end */
 /* schedule start */
 
-.table tbody td:first-child{
+.table tbody td:first-child {
   font-weight: bold;
 }
 .table thead th,
-.table tbody td{
+.table tbody td {
   text-align: center;
 }
 /* schedule end */
