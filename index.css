@@ -37,6 +37,7 @@ body {
 }
 .header .title h2 {
   color: #fff;
+  line-height: 20px;
   font-size: 18px;
 }
 
@@ -62,15 +63,15 @@ body {
   width: calc(100% - 25px);
   background-color: transparent;
   color: #fff !important;
-  padding: 12px 25px 12px 35px;
+  padding: 20px 25px 20px 35px;
   margin-left: 25px;
   display: flex;
   align-items: center;
   font-weight: 500;
   gap: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: 0.8px;
   transition: 0.3s all;
   cursor: pointer;
@@ -87,14 +88,14 @@ body {
 }
 .scaner {
   background-color: #fff;
-  width: 160px;
+  width: 180px;
   border-radius: 20px;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 80px;
   text-align: center;
 }
 .scaner img {
-  width: 140px;
+  width: 160px;
 }
 .scaner p {
   font-size: 16px;
