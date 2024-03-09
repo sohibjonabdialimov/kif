@@ -117,10 +117,10 @@ body {
   padding: 2rem 4rem;
 }
 .main_title {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 600;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 #carouselAdminstration {
   border-radius: 10px;
@@ -146,27 +146,27 @@ body {
 
 #carouselAdminstration .carousel-item img {
   height: auto;
-  width: 20vw;
+  width: 22vw;
   object-fit: cover;
   border-radius: 10px;
 }
 #carouselAdminstration .carousel-control-prev-icon {
   background-color: #aaa;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-size: 50% 50%;
 }
 #carouselAdminstration .carousel-control-next-icon {
   background-color: #aaa;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-size: 50% 50%;
 }
 #carouselAdminstration .carousel-control-prev,
 #carouselAdminstration .carousel-control-next {
-  width: 50px;
+  width: 80px;
 }
 /* main end */
 
@@ -178,7 +178,7 @@ body {
   border-radius: 10px;
 }
 #carouselHome .carousel-item img {
-  height: 400px;
+  height: 550px;
   border-radius: 10px;
 }
 #carouselHome .carousel-control-prev-icon {
@@ -219,19 +219,19 @@ body {
   border-radius: 10px;
 }
 #carouselNews .carousel-item img {
-  height: 450px;
+  height: 600px;
   border-radius: 10px;
 }
 #carouselNews .carousel-control-prev-icon {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-size: 100% 100%;
 }
 #carouselNews .carousel-control-next-icon {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-size: 100% 100%;
 }
 #carouselNews .carousel-control-prev,
@@ -239,8 +239,15 @@ body {
   width: 80px;
 }
 #carouselNews .carousel-caption {
-  background-color: #00000056;
+  background-color: #00000065;
   border-radius: 15px;
+}
+#carouselNews .carousel-caption h5{
+  font-size: 25px;
+  font-weight: 600;
+}
+#carouselNews .carousel-caption p{
+  font-size: 20px;
 }
 /* news page end */
 /* schedule start */
@@ -251,5 +258,6 @@ body {
 .table thead th,
 .table tbody td {
   text-align: center;
+  font-size: 22px;
 }
 /* schedule end */
