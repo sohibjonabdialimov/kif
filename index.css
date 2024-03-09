@@ -20,7 +20,7 @@ body {
   background-color: #073149;
   color: white;
   padding: 10px;
-  height: 7.5rem;
+  height: 8.5rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -33,12 +33,12 @@ body {
   gap: 1.5rem;
 }
 .header img {
-  width: 80px;
+  width: 100px;
 }
 .header .title h2 {
   color: #fff;
-  line-height: 20px;
-  font-size: 18px;
+  line-height: 25px;
+  font-size: 21px;
 }
 
 /* header end */
@@ -50,7 +50,7 @@ body {
   height: 100%;
   width: 20vw;
   position: fixed;
-  top: 7.5rem;
+  top: 8.5rem;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -109,9 +109,9 @@ body {
 .main_wrapper {
   width: 80vw;
   position: relative;
-  top: 7.5rem;
+  top: 8.5rem;
   margin-left: 20vw;
-  min-height: calc(100dvh - 7.5rem);
+  min-height: calc(100dvh - 8.5rem);
   overflow-y: scroll;
   background-color: #eee;
   padding: 2rem 4rem;
@@ -168,6 +168,13 @@ body {
 #carouselAdminstration .carousel-control-next {
   width: 80px;
 }
+.administration_content h2{
+  font-size: 28px;
+  font-weight: 600;
+}
+.administration_content p{
+  font-size: 22px;
+}
 /* main end */
 
 /* home page start*/
@@ -202,12 +209,12 @@ body {
   color: #333;
 }
 .card_title {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
 }
 .card_text {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 35px;
 }
 /* home page end*/
 
@@ -259,5 +266,8 @@ body {
 .table tbody td {
   text-align: center;
   font-size: 22px;
+}
+.table tbody td.exist{
+  background-color: rgb(246, 198, 183);
 }
 /* schedule end */
