@@ -168,11 +168,11 @@ body {
 #carouselAdminstration .carousel-control-next {
   width: 80px;
 }
-.administration_content h2{
+.administration_content h2 {
   font-size: 28px;
   font-weight: 600;
 }
-.administration_content p{
+.administration_content p {
   font-size: 22px;
 }
 /* main end */
@@ -249,11 +249,11 @@ body {
   background-color: #00000065;
   border-radius: 15px;
 }
-#carouselNews .carousel-caption h5{
+#carouselNews .carousel-caption h5 {
   font-size: 25px;
   font-weight: 600;
 }
-#carouselNews .carousel-caption p{
+#carouselNews .carousel-caption p {
   font-size: 20px;
 }
 /* news page end */
@@ -267,7 +267,7 @@ body {
   text-align: center;
   font-size: 22px;
 }
-.table tbody td.exist{
+.table tbody td.exist {
   background-color: rgb(246, 198, 183);
 }
 /* schedule end */
