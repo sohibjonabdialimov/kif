@@ -151,50 +151,55 @@ body {
   gap: 15px;
 }
 .adm_grid_head .administration_content h2{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin: 10px 0;
   font-weight: 600;
-  color: #032330FF;
+  color: #fff;
 }
 .adm_grid_extra .administration_content h2{
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin: 5px 0;
-  color: #032330FF;
+  color: #fff;
 }
 .adm_grid_head .administration_content p{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 15px !important;
 }
 .adm_grid_extra .administration_content p{
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 4px !important;
 }
-.adm_grid_extra,.adm_grid_item{
+.adm_grid_item, .adm_grid_head{
   position: relative;
 }
-.administration_content{
+.adm_grid_head .administration_content, .adm_grid_item .administration_content{
   position: absolute;
   bottom: 0;
-  background-color: #fff;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 100%;
 }
 .adm_grid_head .administration_content p.adm_rank{
   font-weight: 600;
-  color: #032330FF;
+  color: #fff;
   font-style: italic;
 }
 .adm_grid_extra .administration_content p.adm_rank{
   font-weight: 600;
-  color: #032330FF;
+  color: #fff;
   font-style: italic;
 }
 .adm_grid_head .administration_content p span{
   font-weight: 600;
-  color: #032330FF;
+  color: #fff;
 }
 .adm_grid_extra .administration_content p span{
   font-weight: 600;
-  color: #032330FF;
+  color: #fff;
 }
 .carousel#carouselAdminstration {
   border-radius: 10px;
@@ -206,76 +211,11 @@ body {
 
 #carouselAdminstration .carousel-item img {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   border-radius: 10px;
-}
-/* .adm_grid {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.adm_grid_head {
-  width: 50%;
-}
-.adm_grid_extra {
-  width: 50%;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 15px;
-}
-.adm_grid_head .administration_content h2{
-  font-size: 1.4rem;
-  margin: 10px 0;
-  font-weight: 600;
-  color: #032330FF;
-}
-.adm_grid_extra .administration_content h2{
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 5px 0;
-  color: #032330FF;
-}
-.adm_grid_head .administration_content p{
-  font-size: 1.2rem;
-  margin-bottom: 15px !important;
-}
-.adm_grid_extra .administration_content p{
-  font-size: 1rem;
-  margin-bottom: 4px !important;
-}
-.adm_grid_head .administration_content p.adm_rank{
-  font-weight: 600;
-  color: #032330FF;
-  font-style: italic;
-}
-.adm_grid_extra .administration_content p.adm_rank{
-  font-weight: 600;
-  color: #032330FF;
-  font-style: italic;
-}
-.adm_grid_head .administration_content p span{
-  font-weight: 600;
-  color: #032330FF;
-}
-.adm_grid_extra .administration_content p span{
-  font-weight: 600;
-  color: #032330FF;
-}
-.carousel#carouselAdminstration {
-  border-radius: 10px;
-  padding: 30px 80px;
-  box-shadow: 5px 8px 14px rgba(0, 0, 0, 0.173);
-  width: 100%;
-  margin: 0 auto;
 }
 
-#carouselAdminstration .carousel-item img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 10px;
-} */
 #carouselAdminstration .carousel-control-prev-icon {
   background-color: #aaa;
   border-radius: 50%;
