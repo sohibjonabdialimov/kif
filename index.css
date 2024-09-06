@@ -211,7 +211,7 @@ body {
 
 #carouselAdminstration .carousel-item img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 5 / 6;
   object-fit: cover;
   border-radius: 10px;
 }
