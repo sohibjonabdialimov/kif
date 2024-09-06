@@ -164,11 +164,11 @@ body {
 }
 .adm_grid_head .administration_content p{
   font-size: 1.2rem;
-  margin-bottom: 20px !important;
+  margin-bottom: 15px !important;
 }
 .adm_grid_extra .administration_content p{
   font-size: 1rem;
-  margin-bottom: 5px !important;
+  margin-bottom: 4px !important;
 }
 .adm_grid_head .administration_content p.adm_rank{
   font-weight: 600;
