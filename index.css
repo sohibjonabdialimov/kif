@@ -122,6 +122,12 @@ body {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+.main_subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 #carouselAdminstration {
   border-radius: 10px;
 }
@@ -151,23 +157,23 @@ body {
   gap: 15px;
 }
 .adm_grid_head .administration_content h2{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 10px 0;
   font-weight: 600;
   color: #fff;
 }
 .adm_grid_extra .administration_content h2{
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   margin: 5px 0;
   color: #fff;
 }
 .adm_grid_head .administration_content p{
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 15px !important;
 }
 .adm_grid_extra .administration_content p{
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-bottom: 4px !important;
 }
 .adm_grid_item, .adm_grid_head{
@@ -211,7 +217,7 @@ body {
 
 #carouselAdminstration .carousel-item img {
   width: 100%;
-  aspect-ratio: 5 / 6;
+  aspect-ratio: 9 / 10;
   object-fit: cover;
   border-radius: 10px;
 }
