@@ -20,7 +20,7 @@ body {
   background-color: #073149;
   color: white;
   padding: 10px;
-  height: 8.5rem;
+  height: 8rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -48,9 +48,9 @@ body {
   background: #032330;
   font-family: "Lato", sans-serif;
   height: 100%;
-  width: 18vw;
+  width: 16vw;
   position: fixed;
-  top: 8.5rem;
+  top: 8rem;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -107,14 +107,14 @@ body {
 
 /* main start */
 .main_wrapper {
-  width: 82vw;
+  width: 84vw;
   position: relative;
-  top: 8.5rem;
-  margin-left: 18vw;
-  min-height: calc(100dvh - 8.5rem);
+  top: 8rem;
+  margin-left: 16vw;
+  min-height: calc(100dvh - 8rem);
   overflow-y: scroll;
   background-color: #eee;
-  padding: 2rem 4rem;
+  padding: 1.8rem 3rem;
 }
 .main_title {
   font-size: 2.8rem;
@@ -137,6 +137,80 @@ body {
   border-radius: 10px;
 }
 .adm_grid {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.adm_grid_head {
+  width: 50%;
+}
+.adm_grid_extra {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+.adm_grid_head .administration_content h2{
+  font-size: 1.4rem;
+  margin: 10px 0;
+  font-weight: 600;
+  color: #032330FF;
+}
+.adm_grid_extra .administration_content h2{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #032330FF;
+}
+.adm_grid_head .administration_content p{
+  font-size: 1.2rem;
+  margin-bottom: 15px !important;
+}
+.adm_grid_extra .administration_content p{
+  font-size: 1rem;
+  margin-bottom: 4px !important;
+}
+.adm_grid_extra,.adm_grid_item{
+  position: relative;
+}
+.administration_content{
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+}
+.adm_grid_head .administration_content p.adm_rank{
+  font-weight: 600;
+  color: #032330FF;
+  font-style: italic;
+}
+.adm_grid_extra .administration_content p.adm_rank{
+  font-weight: 600;
+  color: #032330FF;
+  font-style: italic;
+}
+.adm_grid_head .administration_content p span{
+  font-weight: 600;
+  color: #032330FF;
+}
+.adm_grid_extra .administration_content p span{
+  font-weight: 600;
+  color: #032330FF;
+}
+.carousel#carouselAdminstration {
+  border-radius: 10px;
+  padding: 30px 80px;
+  box-shadow: 5px 8px 14px rgba(0, 0, 0, 0.173);
+  width: 100%;
+  margin: 0 auto;
+}
+
+#carouselAdminstration .carousel-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* .adm_grid {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -201,7 +275,7 @@ body {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 10px;
-}
+} */
 #carouselAdminstration .carousel-control-prev-icon {
   background-color: #aaa;
   border-radius: 50%;
