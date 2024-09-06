@@ -48,7 +48,7 @@ body {
   background: #032330;
   font-family: "Lato", sans-serif;
   height: 100%;
-  width: 20vw;
+  width: 18vw;
   position: fixed;
   top: 8.5rem;
   left: 0;
@@ -107,10 +107,10 @@ body {
 
 /* main start */
 .main_wrapper {
-  width: 80vw;
+  width: 82vw;
   position: relative;
   top: 8.5rem;
-  margin-left: 20vw;
+  margin-left: 18vw;
   min-height: calc(100dvh - 8.5rem);
   overflow-y: scroll;
   background-color: #eee;
@@ -139,7 +139,7 @@ body {
 .adm_grid {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 .adm_grid_head {
   width: 50%;
@@ -148,7 +148,7 @@ body {
   width: 50%;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
+  gap: 15px;
 }
 .adm_grid_head .administration_content h2{
   font-size: 1.9rem;
