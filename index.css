@@ -151,24 +151,24 @@ body {
   gap: 20px;
 }
 .adm_grid_head .administration_content h2{
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   margin: 20px 0;
   font-weight: 600;
   color: #032330FF;
 }
 .adm_grid_extra .administration_content h2{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 10px 0;
   color: #032330FF;
 }
 .adm_grid_head .administration_content p{
-  font-size: 1.4rem;
-  margin-bottom: 25px !important;
+  font-size: 1.2rem;
+  margin-bottom: 20px !important;
 }
 .adm_grid_extra .administration_content p{
-  font-size: 1.2rem;
-  margin-bottom: 10px !important;
+  font-size: 1rem;
+  margin-bottom: 5px !important;
 }
 .adm_grid_head .administration_content p.adm_rank{
   font-weight: 600;
@@ -198,6 +198,7 @@ body {
 
 #carouselAdminstration .carousel-item img {
   width: 100%;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 10px;
 }
