@@ -146,6 +146,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
+  padding-bottom: 20px;
 }
 .adm_grid_head {
   width: 50%;
@@ -207,6 +208,44 @@ body {
   font-weight: 600;
   color: #fff;
 }
+.adm_tutor_grid{
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 50px;
+}
+.adm_tutor_grid_item{
+  position: relative;
+}
+.adm_tutor_grid_item .administration_content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+.adm_tutor_grid_item .administration_content h2{
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #fff;
+}
+.adm_tutor_grid_item .administration_content p{
+  font-size: 0.8rem;
+  margin-bottom: 4px !important;
+}
+.adm_tutor_grid_item .administration_content p.adm_rank{
+  font-weight: 600;
+  color: #fff;
+  font-style: italic;
+}
+.adm_tutor_grid_item .administration_content p span{
+  font-weight: 600;
+  color: #fff;
+}
+
 .carousel#carouselAdminstration {
   border-radius: 10px;
   padding: 30px 80px;
@@ -215,9 +254,15 @@ body {
   margin: 0 auto;
 }
 
-#carouselAdminstration .carousel-item img {
+#carouselAdminstration .carousel-item .adm_grid img {
   width: 100%;
   aspect-ratio: 9 / 10;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#carouselAdminstration .carousel-item .adm_tutor_grid img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -252,7 +297,7 @@ body {
 }
 #carouselHome .carousel-item img {
   /* height: 550px; */
-  aspect-ratio: 20 / 8;
+  aspect-ratio: 5 / 2;
   border-radius: 10px;
 }
 #carouselHome .carousel-control-prev-icon {
@@ -379,3 +424,58 @@ body {
   border-radius: 15px;
 }
 /* detail end */
+/* students start */
+#carouselStudents {
+  border-radius: 10px;
+}
+#carouselStudents .carousel-inner {
+  border-radius: 10px;
+}
+#carouselStudents .carousel-item {
+  border-radius: 10px;
+}
+.students_wrapper {
+  display: flex;
+  gap: 25px;
+  border-radius: 10px;
+}
+.carousel#carouselStudents {
+  border-radius: 10px;
+  padding: 30px 80px;
+  box-shadow: 5px 8px 14px rgba(0, 0, 0, 0.173);
+  width: 75%;
+  margin: 0 auto;
+}
+
+#carouselStudents .carousel-item img {
+  height: auto;
+  width: 22vw;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#carouselStudents .carousel-control-prev-icon {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-size: 50% 50%;
+}
+#carouselStudents .carousel-control-next-icon {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-size: 50% 50%;
+}
+#carouselStudents .carousel-control-prev,
+#carouselStudents .carousel-control-next {
+  width: 80px;
+}
+.students_content h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.students_content p {
+  font-size: 22px;
+}
+/* students end */
