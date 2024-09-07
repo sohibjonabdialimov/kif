@@ -227,13 +227,13 @@ body {
   width: 100%;
 }
 .adm_tutor_grid_item .administration_content h2{
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 600;
   margin: 5px 0;
   color: #fff;
 }
 .adm_tutor_grid_item .administration_content p{
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   margin-bottom: 4px !important;
 }
 .adm_tutor_grid_item .administration_content p.adm_rank{
